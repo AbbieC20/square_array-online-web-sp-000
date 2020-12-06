@@ -1,3 +1,5 @@
 def square_array(array)
-  array.collect(&: **2)
+  array.map do |number|
+    return number ** 2 
+  end
 end
