@@ -3,3 +3,5 @@ def square_array(array)
     number ** 2
   }
 end
+
+puts square_array(2,4,6,8)
